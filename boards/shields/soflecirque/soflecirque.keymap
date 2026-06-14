@@ -16,7 +16,7 @@
 #define RAISE 2
 #define ADJUST 3
 
-/ {
+{
 
 
 conditional_layers {
@@ -41,7 +41,7 @@ conditional_layers {
         &kp LSHFT   &kp LCTRL   &kp LALT   &tog LOWER   &kp SPACE &kp RET    &tog RAISE   &kp BSPC   &kp DEL   &kp INS
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            //sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         lower_layer {
@@ -55,7 +55,7 @@ conditional_layers {
             >;
 
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            //sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         raise_layer {
@@ -68,7 +68,7 @@ conditional_layers {
          &kp LSHFT   &kp LCTRL   &kp LALT   &tog LOWER   &kp SPACE &kp RET    &tog RAISE   &kp BSPC   &kp DEL   &kp INS
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            //sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         adjust_layer {
